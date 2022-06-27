@@ -9,8 +9,7 @@
 Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como pré-requisito para conclusão de curso e obtenção de crédito na disciplina "Projetos de Sistemas Inteligentes de Apoio à Decisão".
 
 <!-- para os links a seguir, caso os arquivos estejam no mesmo repositório que este README, não há necessidade de incluir o link completo: basta incluir o nome do arquivo, com extensão, que o GitHub completa o link corretamente -->
-- [Link para o código](https://github.com/link_do_repositorio). <!-- caso não aplicável, remover esta linha -->
-
+- [Link para o código](https://github.com/AgnaldoMagnum/proj/blob/main/proj.xlsx). 
 
 
 ---
@@ -27,6 +26,7 @@ Para o caso estudado foi considerada a necessidade de otimizar a utilização de
 ### 2. Modelagem
 Para atender a demanda do planejamento foi solicitada ao projeto uma estimativa de tempo de operação por poço. Foi informado que uma média de tempo de operação é de 30 dias por poço, e que dependendo das facilidades encontradas na unidade esse tempo pode ser diminuído ou estendido. O custo das unidades também varia de acordo com as facilidades presentes na mesma.
 Considerando a execução de 30 poços com um período médio de operação de 30 dias por poço, foi obtido um tempo de operação de 900 dias de sonda. A partir desse dado foi estabelecido que uma quantidade de 5 a 7 sondas seriam suficientes para o atendimento do projeto. Com essa premissa foi fornecida, pelo projeto, uma matriz em que foram correlacionados os tempos de operação nos poços para sete sondas, conforme abaixo:
+
 Nome	Sonda 1	Sonda 2	Sonda 3	Sonda 4	Sonda 5	Sonda 6	Sonda 7
 Poço 1	28	30	24	36	36	30	36
 Poço 2	29	33	24	38	31	29	38
