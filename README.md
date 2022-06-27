@@ -27,44 +27,17 @@ Para o caso estudado foi considerada a necessidade de otimizar a utilização de
 Para atender a demanda do planejamento foi solicitada ao projeto uma estimativa de tempo de operação por poço. Foi informado que uma média de tempo de operação é de 30 dias por poço, e que dependendo das facilidades encontradas na unidade esse tempo pode ser diminuído ou estendido. O custo das unidades também varia de acordo com as facilidades presentes na mesma.
 Considerando a execução de 30 poços com um período médio de operação de 30 dias por poço, foi obtido um tempo de operação de 900 dias de sonda. A partir desse dado foi estabelecido que uma quantidade de 5 a 7 sondas seriam suficientes para o atendimento do projeto. Com essa premissa foi fornecida, pelo projeto, uma matriz em que foram correlacionados os tempos de operação nos poços para sete sondas, conforme abaixo:
 
-Nome	Sonda 1	Sonda 2	Sonda 3	Sonda 4	Sonda 5	Sonda 6	Sonda 7
-Poço 1	28	30	24	36	36	30	36
-Poço 2	29	33	24	38	31	29	38
-Poço 3	29	34	24	39	29	24	39
-Poço 4	30	29	26	36	39	28	36
-Poço 5	29	31	25	40	37	29	40
-Poço 6	25	36	22	36	35	30	36
-Poço 7	29	34	24	38	39	29	38
-Poço 8	30	34	26	37	40	30	37
-Poço 9	27	30	22	39	30	25	39
-Poço 10	29	33	24	40	31	23	40
-Poço 11	27	35	27	38	39	30	38
-Poço 12	26	33	22	37	38	24	37
-Poço 13	27	33	23	36	40	26	36
-Poço 14	25	36	26	39	31	20	39
-Poço 15	30	29	22	37	39	25	37
-Poço 16	26	34	22	37	29	29	37
-Poço 17	28	36	24	38	36	27	38
-Poço 18	28	32	24	36	30	26	36
-Poço 19	26	36	26	36	31	27	36
-Poço 20	27	36	23	39	37	22	39
-Poço 21	26	33	24	39	28	23	39
-Poço 22	30	34	26	39	28	30	39
-Poço 23	29	31	27	36	36	22	36
-Poço 24	29	30	26	40	30	26	40
-Poço 25	28	36	22	36	36	22	36
-Poço 26	25	36	28	39	34	24	39
-Poço 27	25	31	23	38	30	20	38
-Poço 28	25	36	25	40	37	21	40
-Poço 29	25	34	24	40	37	30	40
-Poço 30	29	36	27	36	40	23	36
+
+![image](https://user-images.githubusercontent.com/108281978/176030179-fe93a392-25d2-4ed5-8d4b-f2246d84a9c3.png)
+
+
 
 Esse dado de entrada foi utilizado para a otimização do planejamento das sondas a serem contratadas para atendimento ao projeto. Na solução adotada foram simulados modelos com atendimento por 5, 6 e 7 unidades. Foi também considerado como dado de entrada a distância (já convertida em dias de operação) entre os poços onde serão realizadas as intervenções. Além disso foi também considerada a possibilidade de impor restrição temporal em que determinado poço precisa ser atendido anteriormente a outro.
 A função objetivo do problema foi o custo de operação total para a campanha dos 30 poços, a restrição temporal foi modelada de forma a “punir” o custo em 2% cada vez que uma restrição não fosse atendida.
 
 ### 3. Resultados
 
-Durante as simulações realizadas o melhor resultado financeiro foi observado com a utilização de seis sondas, e sem restrição temporal, totalizando um valor total de R$ 169.288.000,00. As simulações com cinco e sete sondas obtiveram os valores de R$ 174.582.000,00 e R$ 170.721.000,00, respectivamente. A modelagem fornece também a unidade que atenderá determinado poço e a ordem em que eles serão realizados.
+Durante as simulações realizadas o melhor resultado financeiro foi observado com a utilização de seis sondas, e sem restrição temporal, totalizando um valor total de R$169.288.000,00. As simulações com cinco e sete sondas obtiveram os valores de R$174.582.000,00 e R$170.721.000,00, respectivamente. A modelagem fornece também a unidade que atenderá determinado poço e a ordem em que eles serão realizados.
 Além da análise financeira é possível também analisar o tempo de operação para realização das operações. Com a adoção de cinco sondas o maior tempo de operação é de 219 dias, o que extrapola a previsão inicial para realização em até seis meses. A adoção de seis sondas reduz o tempo de operação total para 181 dias e com sete sondas esse tempo é de 152 dias, deve também ser levado em conta o menor tempo de operação para uma unidade que é de 136, 114 e 85 dias para 5, 6 e 7 sondas, respectivamente. Esse tempo pode ter impacto na contratação, haja vista que um tempo muito curto pode não ser atrativo para a celebração de um contrato.
 
 ### 4. Conclusões
