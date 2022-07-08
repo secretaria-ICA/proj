@@ -67,7 +67,7 @@ Além da análise financeira é possível também analisar o tempo de operação
 ### 4. Conclusões
 
 Através da análise dos resultados é observado que é possível utilizar as ferramentas de algoritmos genéticos para otimizar o planejamento das atividades das unidades marítimas em poços. A utilização desses algoritmos é útil em problemas que possuem um espaço de busca extenso, possibilitando um grande conjunto de soluções viáveis. 
-Com a ajuda da modelagem adotada é possível realizar a programação para operações de forma a otimizar os custos das unidades e atendendo a critérios pré-estabelecidos. 
+Com a ajuda da modelagem adotada é possível realizar a programação para operações obtendo uma redução dos custos de algo em torno de 7%, além de atender critérios pré-estabelecidos. Também foi possível concluir que a operações com 6 sondas possui uma vantagem financeira em relação aos outros cenários analisados.
 
 ---
 
