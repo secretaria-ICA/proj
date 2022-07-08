@@ -38,6 +38,30 @@ A função objetivo do problema foi o custo de operação total para a campanha 
 ### 3. Resultados
 
 Durante as simulações realizadas o melhor resultado financeiro foi observado com a utilização de seis sondas, e sem restrição temporal, totalizando um valor total de R$169.288.000,00. As simulações com cinco e sete sondas obtiveram os valores de R$174.582.000,00 e R$170.721.000,00, respectivamente. A modelagem fornece também a unidade que atenderá determinado poço e a ordem em que eles serão realizados.
+A estimativa inicial foi obtida considerando-se que o poço seguinte para operação de cada sonda fosse o de menor distância a partir do poço atual. As figuras abaixo mostram os resultados comparativos entre a estimativa inicial de custo da operação sem otimização e o custo final após a aplicação da otimização.
+
+
+5 Sondas
+
+![image](https://user-images.githubusercontent.com/108281978/177996448-d2eeedca-8744-429e-bd5f-1b4e0612a5cd.png)
+![image](https://user-images.githubusercontent.com/108281978/177996468-7d699581-1548-4c9e-93c5-ba56bad30b9e.png)
+
+Redução de 9,0% do custo total da campanha
+
+6 Sondas
+
+![image](https://user-images.githubusercontent.com/108281978/177996533-00192889-ff7e-4236-9f5f-f9b6d4a2b235.png)
+![image](https://user-images.githubusercontent.com/108281978/177996554-bf3fd49a-05f7-4195-8a31-242b50c6e0b1.png)
+ 
+Redução de 6,3% do custo total da campanha
+
+7 Sondas
+
+![image](https://user-images.githubusercontent.com/108281978/177996588-76b81995-5f3b-414e-b2a7-2de822e589f6.png)
+![image](https://user-images.githubusercontent.com/108281978/177996614-db52ac3e-f007-4dd4-9026-5da581ed2c0a.png)
+ 
+Redução de 7,5% do custo total da campanha
+
 Além da análise financeira é possível também analisar o tempo de operação para realização das operações. Com a adoção de cinco sondas o maior tempo de operação é de 219 dias, o que extrapola a previsão inicial para realização em até seis meses. A adoção de seis sondas reduz o tempo de operação total para 181 dias e com sete sondas esse tempo é de 152 dias, deve também ser levado em conta o menor tempo de operação para uma unidade que é de 136, 114 e 85 dias para 5, 6 e 7 sondas, respectivamente. Esse tempo pode ter impacto na contratação, haja vista que um tempo muito curto pode não ser atrativo para a celebração de um contrato.
 
 ### 4. Conclusões
