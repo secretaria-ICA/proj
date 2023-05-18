@@ -1,4 +1,4 @@
-# Otimização de operações de sondas
+# Otimizacao_de_Operacoes_de_Sondas
 
 #### Aluno: [Agnaldo Silva](https://github.com/AgnaldoMagnum)
 #### Orientador: [Felipe Borges](https://github.com/FelipeBorgesC).
